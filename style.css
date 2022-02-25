@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+body{
+    background: url(./img/ryby_podvodnyy_mir_raznocvetnyy_korally_36168_1920x1080.jpg);
+    /* background-size: cover; */
+}
+h1{
+    color: rgb(184, 222, 255);
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+#box{
+    width: 1050px;
+    height: 800px;
+    background-color: rgba(95, 150, 160, 0.411);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    
+}
+#par{
+    padding: 20px 50px;
+    border-bottom: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#input {
+    padding: 10px 40px;
+    background-color: rgb(74, 123, 151);
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;
+    opacity: .7;
+}
+#pole{
+    width: 950px;
+    height: 550px;
+    border: 1px solid black;
+    margin: 10px auto;
+    background: url(./img/карта2.png);
+    background-size: cover;
+}
+#player{
+    width: 50px;
+    height: 50px;
+    background: url(./img/paw_PNG83.png);
+    background-size: cover;
+    border-radius: 100%;
+    /* display: none; */
+    opacity: 0;
+    transition: all .4s linear;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+#box button{
+    padding: 10px 15px;
+    background-color: rgb(74, 123, 151);
+    border-radius: 10px;
+    border: 1px solid black;
+    color: azure;
+}
+#gamepad{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+
+}
+#top {
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#down{
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#lr{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#lr button{
+    margin-right: 50px;
+    margin-left: -16px;
+}
+#start{
+    margin-right: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+#color{
+    margin-right: 700px;
+
+}
